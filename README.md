@@ -10,16 +10,14 @@ In this project I used import request to pull data from Coinmarket cap through t
 
 ## Special codes in this project
 
-```
-  Python
+``` Python
 
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 ```
 
-```
-Python
+``` Python
 
 def api_runner():
 
